@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@0;1&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Copse&family=Ubuntu:ital@0;1&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Copse&family=Mochiy+Pop+P+One&family=Ubuntu:ital@0;1&family=Varela+Round&display=swap');
+body{
+    background-color: rgb(126, 245, 126);
+}
+*{
+
+    flex-wrap:wrap;
+
+    margin:0;
+    padding:0;
+}
+
+nav{
+    /* object-fit: cover; */
+    font-family: 'Ubuntu', sans-serif;
+    position: sticky;
+    top:0;
+}
+nav ul{
+    
+    display:flex;
+    height:65px;
+    background-color: black;
+    color:white;
+    align-items: center;
+}
+nav ul li {
+    padding-left:12px ;
+}
+nav ul li:hover{
+    color:rgb(102, 189, 102);
+    transform:scaleX(1.1);
+
+}
+.brand img{
+    width:162px;
+    
+}
+.container{
+    font-family: 'Varela Round', sans-serif;
+    height:62vh;
+    color:rgb(102, 189, 102);
+    overflow: hidden;
+    display:flex;
+    width:50%;
+    margin:23px auto;
+    border-radius:12px;
+    padding:34px;
+
+}
+
+.container{
+    background-image:url(bg.jpg);
+    background-image: no-repeat;
+    background-size: cover;
+    background-position-x: 86px;
+    column-span: all;
+    color:white;
+    box-shadow: 0 0 20px rgb(1, 29, 2);
+   
+        
+}
+.container:hover{
+    
+    box-shadow: 0 0 20px red;
+}
+.bottom{
+    
+    position:sticky;
+
+    height:110px;
+    background-color: black;
+    color:white;
+    bottom: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.icons{
+    align-items: center;
+    size:150px;
+
+}
+.songItem {
+    display:flex;
+    height:50px;
+   align-items: center;
+     
+    color:white;
+    
+    
+}
+
+
+.songlistplay{
+    flex-direction: row-reverse;
+
+    
+    
+}
+.songlistplay i{
+    margin-right: 10px;
+    margin-left: 7px;
+    cursor:pointer;
+}
+.songItem img{
+    width:40px;
+    margin-right: 10px;
+    border-radius:10px;
+    object-fit: cover;
+    margin-left: 5px;
+    height: fit-content;
+}
+.songItem:hover{
+    transform:scale(1.1);
+    box-shadow: 0 0 5px rgb(115, 230, 115);
+}
+
+
+
+.name{
+    cursor:pointer;
+    margin-right: 20px;
+    
+}
+
+.name:hover{
+    text-decoration: underline;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+
+.icons i{
+    cursor: pointer;
+    margin-right: 20px;
+}
+.icons i:hover{
+   transform: scale(1.1);
+   color:salmon;
+}
+
+
+#myprogressbar{
+    cursor:pointer;
+    margin-bottom: 20px;
+   height: 10px;
+  width:1242px;
+  align-content: center;
+  z-index: 2;
+  
+}
+
+.songitemcontainer{
+    margin-top: 25px;
+    flex-wrap: wrap;
+
+}
+
+.head{
+    margin-left: 15px;
+}
+.songinfo{
+    display:flex;
+    margin-top: 5px;
+    color:white;  
+    align-items:center;
+    position: absolute;
+    left:130px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+  }
+  .songinfo img{
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-top: 15px;
+      opacity:1;
+      margin-bottom: 0px;
+      transition:opacity 0.2s ease-in ;
+  }
+
+  .text{
+      margin-top: 10px;
+    font-size: 10px;
+  }
+ 
