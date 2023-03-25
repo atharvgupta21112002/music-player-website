@@ -131,6 +131,7 @@ forward.addEventListener('click',()=>{
         myprogressbar.value=0;
     }
 })
+
 // while(1){
 //     // progress = parseInt((audioElement.currentTime/audioElement.duration)*100);
 //     if(progress == 100){
